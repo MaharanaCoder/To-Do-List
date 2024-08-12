@@ -1,0 +1,82 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+
+}
+body{
+    padding: 30px;
+}
+
+.container h1{
+    font-size: 50px;
+    font-weight: bold;
+    background: linear-gradient(to right, skyblue, blue)
+        
+}
+
+.inputfield{
+    background: linear-gradient(to right, rgb(7, 217, 224), rgb(11, 230, 193));
+    box-shadow: 10px 10px 10px rgb(165, 162, 162); 
+    padding: 30px;
+    row-gap: 30px;
+    border-radius: 10px;
+
+}
+.inputfield button{
+    background-color: rgb(9, 129, 227);
+    width: 300px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+.inputfield button:hover{
+    background-color: rgb(65, 65, 164);
+    color: white;
+}
+
+.list{
+    height: auto;
+    margin-top: 50px;
+
+}
+
+
+
+
+.expense-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.expense-list li {
+    background: linear-gradient(to right, rgb(6, 247, 255), rgb(145, 228, 215));
+    margin-bottom: 15px; 
+    padding: 15px; 
+    border-radius: 8px; 
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1); 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.expense-list h2 {
+    margin: 0;
+    margin-right: 20px;
+    /* font-size: 16px; */
+    color: black;
+    line-height: 1.5;
+}
+
+button.delete-btn {
+    padding: 5px 10px;
+    border: none;
+    background: #dc3545;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px; /* Space between data and button */
+
+}
+
+button.delete-btn:hover {
+    background: #c82333;
+}
