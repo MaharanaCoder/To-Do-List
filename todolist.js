@@ -33,37 +33,8 @@ function expense(){
     li.appendChild(dltbtn);
     list.appendChild(li);
 
-    allInput.value ='';
-    allInput.focus();
+    document.getElementById("product").value="";
+    document.getElementById("productCat").value="Selecg Category";
+    document.getElementById("amount").value="";
+    document.getElementById("date").value="";
 }
-
-
-
-
-// function addTask() {
-            
-//     const input1 = document.getElementById('todo-input').value.trim();
-//     const input2 = document.getElementById('todo-input2').value.trim();
-//     const input = [input1, input2];
-//     // const taskText = input.value.trim();
-//     // if (taskText === '') return;
-    
-
-//     const list = document.getElementById('todo-list');
-
-//     const li = document.createElement('li');
-//     const p = document.createElement('p');
-//     p.textContent = input;
-    
-
-//     const button = document.createElement('button');
-//     button.textContent = 'Delete';
-//     button.onclick = () => li.remove();
-
-//     li.appendChild(p);
-//     li.appendChild(button);
-//     list.appendChild(li);
-
-//     input.value = '';
-//     input.focus();
-// }
